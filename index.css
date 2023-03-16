@@ -1,0 +1,20 @@
+#root {
+}
+
+.app {
+	position: absolute;
+	width: 25%;
+	margin: auto;
+
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.employee-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.employee-container * + * {
+	margin-top: 0.25em;
+} 
